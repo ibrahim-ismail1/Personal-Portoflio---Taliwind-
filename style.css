@@ -1,0 +1,49 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.main-color {
+  color: #1a1818;
+}
+.main-bg {
+  background-color: #1a1818;
+}
+.main-font {
+  font-family: 'Montserrat';
+}
+*::selection {
+  background-color: #1A1919;
+  color: #E6DFD9;
+}
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: brown;
+}
+@font-face {
+  font-family: "GrandSlag-Roman";
+  src: url(./Fonts/GrandSlang-Roman.ttf),url(./Fonts/GrandSlang-Roman.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Fonts/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Fonts/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Fonts/Montserrat-ExtraLight.ttf);
+  font-weight: 300;
+}
